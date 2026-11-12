@@ -26,7 +26,7 @@ button.addEventListener("click",()=>{
 			return new Promise((resolve) => {
 				setTimeout(() =>{
 					let sub = result-3;
-					output.textContent = `Final Result: ${sub}`;
+					output.textContent = `Result: ${sub}`;
 					resolve(sub);
 				},1000);
 			});
@@ -44,7 +44,7 @@ button.addEventListener("click",()=>{
 			return new Promise((resolve) => {
 				setTimeout(() =>{
 					let add = result + 10;
-					output.textContent = `Result: ${add}`;
+					output.textContent = `Final Result: ${add}`;
 					resolve(add);
 				},1000);
 			});
