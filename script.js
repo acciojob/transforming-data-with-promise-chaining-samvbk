@@ -9,7 +9,7 @@ button.addEventListener("click",()=>{
 			let value = Number(input.value);
 			output.textContent = `Result: ${value}`;
 			resolve(value);
-		},3000);
+		},2000);
 	});
 
 	myPromise
@@ -26,7 +26,7 @@ button.addEventListener("click",()=>{
 			return new Promise((resolve) => {
 				setTimeout(() =>{
 					let sub = result-3;
-					output.textContent = `Result: ${sub}`;
+					output.textContent = `Final Result: ${sub}`;
 					resolve(sub);
 				},1000);
 			});
